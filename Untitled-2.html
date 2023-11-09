@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Бібліотека</title>
+    <style>
+        /* Загальні стилі для сайту */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            font-size: 24px;
+        }
+
+        .book {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+        }
+
+        button {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            font-size: 18px;
+            background-color: #0078d4;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #005a9e;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        /* Стилі для посилань */
+        a {
+            color: #0078d4;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ласкаво просимо до нашої бібліотеки</h1>
+    </header>
+
+    <main>
+        <h2>Каталог книг</h2>
+        <div id="book-list">
+            <!-- Тут буде відображатися список книг -->
+            <div class="book">
+                <h3>Я бачу, Вас цікавить пітьма</h3>
+                <p>Автор: ілларіон Павлюк</p>
+                <p>Рік видання: 2020</p>
+                 <p>Жанр:</p>
+                <!-- Кнопка для завантаження окремої книги -->
+                <button onclick="location.href='завантажити_окрему_книгу.html'">Завантажити</button>
+            </div>
+             <div class="book">
+                <h3>Книга Анатомія: історія кохання</h3>
+                <p>Автор:Дана Шварц</p>
+                <p>Рік видання: 2023</p>
+                <p>Жанр:</p>
+                <!-- Кнопка для завантаження окремої книги -->
+                <button onclick="location.href='завантажити_окрему_книгу.html'">Завантажити</button>
+            </div>
+             <div class="book">
+                <h3>Книга Мистецтво війни</h3>
+                <p>Автор:Сунь-Цзи</p>
+                <p>Рік видання: 2000</p>
+                 <p>Жанр:</p>
+                <!-- Кнопка для завантаження окремої книги -->
+                <button onclick="location.href='завантажити_окрему_книгу.html'">Завантажити</button>
+            </div>
+             <div class="book">
+                <h3>Книга Гаррі Поттер і філософський камінь. Ілюстроване видання</h3>
+                <p>Автор: Джоан Роулінг</p>
+                <p>Рік видання: 2016</p>
+                 <p>Жанр:</p>
+                <!-- Кнопка для завантаження окремої книги -->
+                <button onclick="location.href='завантажити_окрему_книгу.html'">Завантажити</button>
+            </div>
+             <div class="book">
+                <h3>Книга Фактор Черчилля. Як одна людина змінила історію</h3>
+                <p>Автор: Борис Джонсон</p>
+                <p>Рік видання: 2019</p>
+                <!-- Кнопка для завантаження окремої книги -->
+                <button onclick="location.href='завантажити_окрему_книгу.html'">Завантажити</button>
+            </div>
+             <div class="book">
+                <h3>Книга Вечірка на Гелловін (Привиди у Венеції)</h3>
+                <p>Автор: Агата Крісті</p>
+                <p>Рік видання: 2023</p>
+                 <p>Жанр:</p>
+                <!-- Кнопка для завантаження окремої книги -->
+                <button onclick="location.href='завантажити_окрему_книгу.html'">Завантажити</button>
+            </div>
+             <div class="book">
+                <h3>Книга Жінки, які кохають до нестями</h3>
+                <p>Автор: Робін Норвуд</p>
+                <p>Рік видання: 2017</p>
+                 <p>Жанр:</p>
+                <!-- Кнопка для завантаження окремої книги -->
+                <button onclick="location.href='завантажити_окрему_книгу.html'">Завантажити</button>
+            </div>
+             <div class="book">
+                <h3>Люби без ілюзій. Як звільнитися від токсичних стереотипів і побудувати здорові стосунки</h3>
+                <p>Автор: Анна Топіліна</p>
+                <p>Рік видання: 2021</p>
+                 <p>Жанр:</p>
+                <!-- Кнопка для завантаження окремої книги -->
+                <button onclick="location.href='завантажити_окрему_книгу.html'">Завантажити</button>
+            </div>
+             <div class="book">
+                <h3>Книга Цирцея</h3>
+                <p>Автор: Мадлен Міллер</p>
+                <p>Рік видання: 2020</p>
+                 <p>Жанр:</p>
+                <!-- Кнопка для завантаження окремої книги -->
+                <button onclick="location.href='завантажити_окрему_книгу.html'">Завантажити</button>
+            </div>
+        </div>
+
+        <!-- Кнопка для завантаження всіх книг -->
+        <button onclick="location.href='завантажити.html'">Завантажити всі книги</button>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Ваша бібліотека</p>
+    </footer>
+</body>
+</html>
